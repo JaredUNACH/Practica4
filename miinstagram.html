@@ -5,28 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Las Mejores redes sociales</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+            color: white;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: rgb(0, 0, 0);
+        }
+        p {
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+        }
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            color: white;
+            text-decoration: none;
+        }
         .instagram-logo {
-        width: 60px;
-        height: 60px;
-        border: 2px solid #833AB4;
-        border-radius: 50%;
-        box-shadow: 0 0 10px rgba(0,0,0,0.2);
-        transition: transform 0.3s ease;
-    }
-
-    .instagram-logo:hover {
-        transform: scale(1.1);
-    }
-    h1{
-       
-        color: #833AB4;
-    }
+            width: 60px;
+            height: 60px;
+            border: 2px solid white;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .instagram-logo:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 <body>
-    <h1>Instagram</h1>
-    <img class="instagram-logo" src="imagenes/Instagram_Logo.png">
-    <p>Continuara</p>
-    <a href="index.html">Regrsar al menu</a>
+    <div class="container">
+        <h1>Instagram</h1>
+        <img class="instagram-logo" src="imagenes/Instagram_Logo.png">
+        <h2>¿Qué es Instagram?</h2>
+        <p>Instagram es una red social y una aplicación para compartir fotos y videos. Permite a los usuarios tomar fotos y videos, aplicarles filtros digitales y compartirlos en varias redes sociales, incluyendo la propia de Instagram.</p>
+        <h2>¿Para qué se utiliza Instagram?</h2>
+        <p>Instagram se utiliza para compartir momentos visuales, descubrir contenido nuevo, seguir a otros usuarios y ser seguido, y para interactuar con otros a través de likes, comentarios y mensajes directos.</p>
+        <h2>Datos curiosos sobre Instagram</h2>
+        <p>Instagram fue lanzado en octubre de 2010. En abril de 2012, Facebook adquirió la compañía por aproximadamente $1 mil millones en efectivo y acciones. A partir de 2021, Instagram tiene más de 1 mil millones de usuarios activos mensuales.</p>
+        <a class="back-link" href="index.html">Regresar al menú</a>
+    </div>
 </body>
 </html>
